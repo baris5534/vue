@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import Navbar from './components/navbar.vue'
 </script>
 
 <template>
@@ -9,8 +8,7 @@ import Navbar from './components/navbar.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="100" height="100" />
 
     <div class="wrapper">
-      <HelloWorld class="yazi" msg="Benim uygulamam!" />
-      <navbar id="navbar"/>
+      <HelloWorld class="yazi bg-slate-400" msg="Benim uygulamam!" />
     </div>
   </header>
 
